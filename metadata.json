@@ -1,0 +1,6 @@
+{
+  "name": "Apple (España) — Apple Watch Ultra",
+  "description": "Obsidian gallery vitrine de Apple España para el Apple Watch Ultra con vídeos cinemáticos, configurador interactivo de titanio y explorador de esferas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-obsidian: #1d1d1f;
+  --color-frost-white: #f5f5f7;
+  --color-pure-black: #000000;
+  --color-paper-white: #ffffff;
+  --color-carbon: #111111;
+  --color-platinum: #86868b;
+  --color-graphite: #333336;
+  --color-silver-mist: #cccccc;
+  --color-smoke: #424245;
+  --color-apple-blue: #0071e3;
+  --color-link-blue: #0066cc;
+  --color-halo-blue: #2997ff;
+  --color-signal-orange: #f56900;
+  --color-iris-violet: #8668ff;
+  --color-reef-teal: #00a1b3;
+
+  /* Typography */
+  --font-sf-pro-display: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sf-pro-text: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono-numbers: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-60: 60px;
+  --spacing-76: 76px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-104: 104px;
+  --spacing-160: 160px;
+
+  /* Border Radius */
+  --radius-lg: 10px;
+  --radius-3xl: 28px;
+  --radius-3xl-2: 32px;
+  --radius-3xl-3: 36px;
+  --radius-full: 980px;
+}
+
+:root {
+  --color-obsidian: #1d1d1f;
+  --color-frost-white: #f5f5f7;
+  --color-pure-black: #000000;
+  --color-paper-white: #ffffff;
+  --color-carbon: #111111;
+  --color-platinum: #86868b;
+  --color-graphite: #333336;
+  --color-silver-mist: #cccccc;
+  --color-smoke: #424245;
+  --color-apple-blue: #0071e3;
+  --color-link-blue: #0066cc;
+  --color-halo-blue: #2997ff;
+  --color-signal-orange: #f56900;
+  --color-iris-violet: #8668ff;
+  --color-reef-teal: #00a1b3;
+}
+
+body {
+  font-family: var(--font-sf-pro-text);
+  background-color: #000000;
+  color: #f5f5f7;
+  overflow-x: hidden;
+}
+
+/* Custom negative letter spacing classes per spec */
+.tracking-tight-hero {
+  letter-spacing: -0.025em;
+}
+
+.tracking-tight-display {
+  letter-spacing: -0.018em;
+}
+
+.tracking-tight-headline {
+  letter-spacing: -0.015em;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbars for clean Apple feel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
